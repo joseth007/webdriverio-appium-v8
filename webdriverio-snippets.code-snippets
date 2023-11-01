@@ -1,0 +1,13 @@
+{
+  "create a describe": {
+    "prefix": "wdio_create_suite",
+    "body": [
+      "describe('$1', () => {
+        it('$2', async () => {
+            $3
+        })
+    });"
+    ],
+    "description": "create a suite"
+  }
+}
