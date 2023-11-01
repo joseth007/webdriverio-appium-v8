@@ -18,7 +18,7 @@ describe('Todo List', () => {
         await ItemScreen.titleInputField.addValue('Automatizar');
         await ItemScreen.dueInputField.click();
         await ItemScreen.tapOnCalendar();
-        await ItemScreen.arrowCalentarBtn.click();
+        //await ItemScreen.arrowCalentarBtn.click();
         await ItemScreen.getByAccesibility('Thursday, November 23').click();
         await ItemScreen.secondWindow.click()
         await ItemScreen.createBtn.click();

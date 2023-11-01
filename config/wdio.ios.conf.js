@@ -12,7 +12,7 @@ config.port = 4723;
 // Specs
 // ============
 config.specs = [
-    path.join(process.cwd(), 'test/specs/ios/ios-todo-item.spec.js')
+    path.join(process.cwd(), 'test/specs/ios/ios-todo**.spec.js')
 ];
 
 //

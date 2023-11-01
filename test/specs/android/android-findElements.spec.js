@@ -1,6 +1,6 @@
 describe('Android Elements Test',() => {
     
-    it('Find element by accesibility id', async() => {
+    it.only('Find element by accesibility id', async() => {
         //find element by accesibility id
         const appOption = await $('~App');
         //click on element
@@ -35,7 +35,7 @@ describe('Android Elements Test',() => {
         await $('android=new UiSelector().textContains("Alert")').click();
     });
 
-    it('Find all the text of main screen', async () => {
+    it.only('Find all the text of main screen', async () => {
         const expectedList = [
             'API Demos', "Access'ibility",
             'Accessibility', 'Animation',
