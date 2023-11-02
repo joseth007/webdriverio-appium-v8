@@ -29,7 +29,7 @@ config.capabilities = [
     }
 ]
 
- config.services = ['appium'];
+config.services = ['appium'];
 
 //
 // Test runner services
