@@ -1,4 +1,472 @@
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session[39m
+[38;5;0m[HTTP][0m [90m{"capabilities":{"alwaysMatch":{"appium:platformName":"IOS","appium:platformVersion":"17.0","appium:deviceName":"iPhone 15 Pro Max","appium:automationName":"XCUITest","appium:app":"/Users/josethvargas/Desktop/automationbro/webdriverio-appium-v8/app/ios/MVCTodo.app"},"firstMatch":[{}]},"desiredCapabilities":{"appium:platformName":"IOS","appium:platformVersion":"17.0","appium:deviceName":"iPhone 15 Pro Max","appium:automationName":"XCUITest","appium:app":"/Users/josethvargas/Desktop/automationbro/webdriverio-appium-v8/app/ios/MVCTodo.app"}}[39m
+[debug] [38;5;16m[AppiumDriver@3efe][0m Calling AppiumDriver.createSession() with args: [{"appium:platformName":"IOS","appium:platformVersion":"17.0","appium:deviceName":"iPhone 15 Pro Max","appium:automationName":"XCUITest","appium:app":"/Users/josethvargas/Desktop/automationbro/webdriverio-appium-v8/app/ios/MVCTodo.app"},null,{"alwaysMatch":{"appium:platformName":"IOS","appium:platformVersion":"17.0","appium:deviceName":"iPhone 15 Pro Max","appium:automationName":"XCUITest","appium:app":"/Users/josethvargas/Desktop/automationbro/webdriverio-appium-v8/app/ios/MVCTodo.app"},"firstMatch":[{}]}]
+[debug] [38;5;16m[AppiumDriver@3efe][0m Event 'newSessionRequested' logged at 1698965029307 (16:43:49 GMT-0600 (Central Standard Time))
+[38;5;32m[BaseDriver][0m The capabilities ["platformName"] are standard capabilities and do not require "appium:" prefix
+[35m[Appium][39m Attempting to find matching driver for automationName 'XCUITest' and platformName 'IOS'
+[35m[Appium][39m The 'xcuitest' driver was installed and matched caps.
+[35m[Appium][39m Will require it at /Users/josethvargas/Desktop/automationbro/webdriverio-appium-v8/node_modules/appium-xcuitest-driver
+[debug] [35m[Appium][39m Requiring driver at /Users/josethvargas/Desktop/automationbro/webdriverio-appium-v8/node_modules/appium-xcuitest-driver
+[38;5;16m[AppiumDriver@3efe][0m Appium v2.1.3 creating new XCUITestDriver (v5.6.0) session
+[38;5;16m[AppiumDriver@3efe][0m Checking BaseDriver versions for Appium and XCUITestDriver
+[38;5;16m[AppiumDriver@3efe][0m Appium's BaseDriver version is 9.3.20
+[38;5;16m[AppiumDriver@3efe][0m XCUITestDriver's BaseDriver version is 9.3.20
+[38;5;16m[AppiumDriver@3efe][0m Applying relaxed security to 'XCUITestDriver' as per server command line argument. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+[debug] [38;5;48m[XCUITestDriver@eb05][0m Creating session with W3C capabilities: {
+[debug] [38;5;48m[XCUITestDriver@eb05][0m   "alwaysMatch": {
+[debug] [38;5;48m[XCUITestDriver@eb05][0m     "platformName": "IOS",
+[debug] [38;5;48m[XCUITestDriver@eb05][0m     "appium:platformVersion": "17.0",
+[debug] [38;5;48m[XCUITestDriver@eb05][0m     "appium:deviceName": "iPhone 15 Pro Max",
+[debug] [38;5;48m[XCUITestDriver@eb05][0m     "appium:automationName": "XCUITest",
+[debug] [38;5;48m[XCUITestDriver@eb05][0m     "appium:app": "/Users/josethvargas/Desktop/automationbro/webdriverio-appium-v8/app/ios/MVCTodo.app"
+[debug] [38;5;48m[XCUITestDriver@eb05][0m   },
+[debug] [38;5;48m[XCUITestDriver@eb05][0m   "firstMatch": [
+[debug] [38;5;48m[XCUITestDriver@eb05][0m     {}
+[debug] [38;5;48m[XCUITestDriver@eb05][0m   ]
+[debug] [38;5;48m[XCUITestDriver@eb05][0m }
+[38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Session created with session id: c8c301af-b524-4136-a5a8-448b597c5874
+[debug] [38;5;64m[XCUITest][0m Current user: 'josethvargas'
+[38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m No real device udid has been provided in capabilities. Will select a matching simulator to run the test.
+[38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m iOS SDK Version set to '17.0'
+[debug] [38;5;64m[XCUITest][0m Looking for an existing Simulator with platformName: iOS, platformVersion: 17.0, deviceName: iPhone 15 Pro Max
+[38;5;80m[iOSSim][0m Constructing iOS simulator for Xcode version 15.0.1 with udid 'B8640B5D-60D3-4CAA-8263-566FE988C143'
+[38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Determining device to run tests on: udid: 'B8640B5D-60D3-4CAA-8263-566FE988C143', real device: false
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Event 'xcodeDetailsRetrieved' logged at 1698965029545 (16:43:49 GMT-0600 (Central Standard Time))
+[38;5;32m[BaseDriver][0m Using local app '/Users/josethvargas/Desktop/automationbro/webdriverio-appium-v8/app/ios/MVCTodo.app'
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Event 'appConfigured' logged at 1698965029546 (16:43:49 GMT-0600 (Central Standard Time))
+[debug] [38;5;64m[XCUITest][0m Checking whether app '/Users/josethvargas/Desktop/automationbro/webdriverio-appium-v8/app/ios/MVCTodo.app' is actually present on file system
+[debug] [38;5;64m[XCUITest][0m App is present
+[debug] [38;5;64m[XCUITest][0m Getting bundle ID from app '/Users/josethvargas/Desktop/automationbro/webdriverio-appium-v8/app/ios/MVCTodo.app': 'com.syzygydev.MVCTodo'
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Event 'resetStarted' logged at 1698965029547 (16:43:49 GMT-0600 (Central Standard Time))
+[debug] [38;5;96m[simctl][0m Error running 'terminate': An error was encountered processing the command (domain=NSPOSIXErrorDomain, code=3):
+Simulator device returned an error for the requested operation.
+found nothing to terminate
+Underlying error (domain=NSPOSIXErrorDomain, code=3):
+	The request to terminate "com.syzygydev.MVCTodo" failed. found nothing to terminate
+	found nothing to terminate
+[38;5;64m[XCUITest][0m Reset: failed to terminate Simulator application with id "com.syzygydev.MVCTodo"
+[38;5;64m[XCUITest][0m Not scrubbing third party app in anticipation of uninstall
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Event 'resetComplete' logged at 1698965029715 (16:43:49 GMT-0600 (Central Standard Time))
+[38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Using WDA path: '/Users/josethvargas/Desktop/automationbro/webdriverio-appium-v8/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent'
+[38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Using WDA agent: '/Users/josethvargas/Desktop/automationbro/webdriverio-appium-v8/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+[debug] [38;5;112m[IOSSimulatorLog][0m Starting log capture for iOS Simulator with udid 'B8640B5D-60D3-4CAA-8263-566FE988C143' using simctl
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Event 'logCaptureStarted' logged at 1698965030101 (16:43:50 GMT-0600 (Central Standard Time))
+[38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Setting up simulator
+[debug] [38;5;80m[iOSSim][0m Setting preferences of B8640B5D-60D3-4CAA-8263-566FE988C143 Simulator to {"ConnectHardwareKeyboard":false}
+[debug] [38;5;80m[iOSSim][0m Setting common Simulator preferences to {"RotateWindowWhenSignaledByGuest":true,"StartLastDeviceOnLaunch":false,"DetachOnWindowClose":false,"AttachBootedOnStart":true,"ConnectHardwareKeyboard":false,"PasteboardAutomaticSync":false}
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Parsed BUILD_DIR configuration value: '/Users/josethvargas/Library/Developer/Xcode/DerivedData/WebDriverAgent-hhbjyuicwaabejdackiuaedpaaxb/Build/Products'
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Got derived data root: '/Users/josethvargas/Library/Developer/Xcode/DerivedData/WebDriverAgent-hhbjyuicwaabejdackiuaedpaaxb'
+[debug] [38;5;80m[iOSSim][0m Updated B8640B5D-60D3-4CAA-8263-566FE988C143 Simulator preferences at '/Users/josethvargas/Library/Preferences/com.apple.iphonesimulator.plist' with {"RotateWindowWhenSignaledByGuest":true,"StartLastDeviceOnLaunch":false,"DetachOnWindowClose":false,"AttachBootedOnStart":true,"ConnectHardwareKeyboard":false,"PasteboardAutomaticSync":false,"DevicePreferences":{"B8640B5D-60D3-4CAA-8263-566FE988C143":{"SimulatorExternalDisplay":2114,"ConnectHardwareKeyboard":false,"ChromeTint":"","SimulatorWindowGeometry":{"9857B447-60CA-4414-9320-E5774CECDB6E":{"WindowCenter":"{2677.5, 1577}","WindowScale":0.8367768595041323},"2B86A8A6-8030-48DC-85CA-5BD72007143F":{"WindowCenter":"{1308.5, 490.5}","WindowScale":0.8367768595041323}},"SimulatorWindowOrientation":"Portrait","SimulatorWindowRotationAngle":0}}}
+[debug] [38;5;80m[iOSSim][0m Got Simulator UI client PID: 28098
+[38;5;80m[iOSSim][0m Both Simulator with UDID 'B8640B5D-60D3-4CAA-8263-566FE988C143' and the UI client are currently running
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Event 'simStarted' logged at 1698965036506 (16:43:56 GMT-0600 (Central Standard Time))
+[debug] [38;5;64m[XCUITest][0m Verifying application platform
+[debug] [38;5;64m[XCUITest][0m CFBundleSupportedPlatforms: ["iPhoneSimulator"]
+[38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m App 'com.syzygydev.MVCTodo' is already installed
+[debug] [38;5;64m[XCUITest][0m Reset requested. Removing app with id 'com.syzygydev.MVCTodo' from the device
+[debug] [38;5;64m[XCUITest][0m Installing '/Users/josethvargas/Desktop/automationbro/webdriverio-appium-v8/app/ios/MVCTodo.app' on Simulator with UUID 'B8640B5D-60D3-4CAA-8263-566FE988C143'...
+[debug] [38;5;64m[XCUITest][0m The app has been installed successfully.
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Event 'appInstalled' logged at 1698965037468 (16:43:57 GMT-0600 (Central Standard Time))
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m No obsolete cached processes from previous WDA sessions listening on port 8100 have been found
+[38;5;128m[DevCon Factory][0m Requesting connection for device B8640B5D-60D3-4CAA-8263-566FE988C143 on local port 8100
+[debug] [38;5;128m[DevCon Factory][0m Cached connections count: 0
+[38;5;128m[DevCon Factory][0m Successfully requested the connection for B8640B5D-60D3-4CAA-8263-566FE988C143:8100
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Starting WebDriverAgent initialization with the synchronization key 'XCUITestDriver'
+[debug] [38;5;144m[WD Proxy][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;144m[WD Proxy][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;144m[WD Proxy][0m Got response with status 200: {"value":{"build":{"upgradedAt":"1696904516013","time":"Nov  2 2023 16:34:40","productBundleIdentifier":"com.facebook.WebDriverAgentRunner"},"os":{"testmanagerdVersion":65535,"name":"iOS","sdkVersion":"17.0","version":"17.0.1"},"device":"iphone","ios":{"simulatorVersion":"17.0.1","ip":"192.168.0.9"},"message":"WebDriverAgent is ready to accept commands","state":"success","ready":true},"sessionId":null}
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Upgrade timestamp of the currently bundled WDA: 1696904516013
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Upgrade timestamp of the WDA on the device: 1696904516013
+[38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Will reuse previously cached WDA instance at 'http://127.0.0.1:8100/' with 'com.facebook.WebDriverAgentRunner'. Set the wdaLocalPort capability to a value different from 8100 if this is an undesired behavior.
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Trying to start WebDriverAgent 2 times with 10000ms interval
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m These values can be customized by changing wdaStartupRetries/wdaStartupRetryInterval capabilities
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Event 'wdaStartAttempted' logged at 1698965037749 (16:43:57 GMT-0600 (Central Standard Time))
+[38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Using provided WebdriverAgent at 'http://127.0.0.1:8100/'
+[debug] [38;5;144m[WD Proxy][0m Matched '/status' to command name 'getStatus'
+[debug] [38;5;144m[WD Proxy][0m Proxying [GET /status] to [GET http://127.0.0.1:8100/status] with no body
+[debug] [38;5;144m[WD Proxy][0m Got response with status 200: {"value":{"build":{"upgradedAt":"1696904516013","time":"Nov  2 2023 16:34:40","productBundleIdentifier":"com.facebook.WebDriverAgentRunner"},"os":{"testmanagerdVersion":65535,"name":"iOS","sdkVersion":"17.0","version":"17.0.1"},"device":"iphone","ios":{"simulatorVersion":"17.0.1","ip":"192.168.0.9"},"message":"WebDriverAgent is ready to accept commands","state":"success","ready":true},"sessionId":null}
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Event 'wdaSessionAttempted' logged at 1698965037752 (16:43:57 GMT-0600 (Central Standard Time))
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Sending createSession command to WDA
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Matched '/session' to command name 'createSession'
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Proxying [POST /session] to [POST http://127.0.0.1:8100/session] with body: {"capabilities":{"firstMatch":[{"bundleId":"com.syzygydev.MVCTodo","arguments":[],"environment":{},"eventloopIdleDelaySec":0,"shouldWaitForQuiescence":true,"shouldUseTestManagerForVisibilityDetection":false,"maxTypingFrequency":60,"shouldUseSingletonTestManager":true,"shouldTerminateApp":true,"forceAppLaunch":true,"useNativeCachingStrategy":true,"forceSimulatorSoftwareKeyboardPresence":true}],"alwaysMatch":{}}}
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Got response with status 200: {"value":{"sessionId":"DC78CDA4-07DD-45A3-A07D-AFDFE48B244D","capabilities":{"sdkVersion":"17.0.1","device":"iphone"}},"sessionId":"DC78CDA4-07DD-45A3-A07D-AFDFE48B244D"}
+[38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Determined the downstream protocol as 'W3C'
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Event 'wdaSessionStarted' logged at 1698965041520 (16:44:01 GMT-0600 (Central Standard Time))
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Event 'wdaStarted' logged at 1698965041520 (16:44:01 GMT-0600 (Central Standard Time))
+[debug] [38;5;32m[BaseDriver][0m The value of 'elementResponseAttributes' setting did not change. Skipping the update for it
+[debug] [38;5;32m[BaseDriver][0m The value of 'shouldUseCompactResponses' setting did not change. Skipping the update for it
+[38;5;16m[AppiumDriver@3efe][0m New XCUITestDriver session created successfully, session c8c301af-b524-4136-a5a8-448b597c5874 added to master session list
+[debug] [38;5;16m[AppiumDriver@3efe][0m Event 'newSessionStarted' logged at 1698965041523 (16:44:01 GMT-0600 (Central Standard Time))
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Cached the protocol value 'W3C' for the new session c8c301af-b524-4136-a5a8-448b597c5874
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Responding to client with driver.createSession() result: {"capabilities":{"webStorageEnabled":false,"locationContextEnabled":false,"browserName":"","platform":"MAC","javascriptEnabled":true,"databaseEnabled":false,"takesScreenshot":true,"networkConnectionEnabled":false,"platformName":"IOS","platformVersion":"17.0","deviceName":"iPhone 15 Pro Max","automationName":"XCUITest","app":"/Users/josethvargas/Desktop/automationbro/webdriverio-appium-v8/app/ios/MVCTodo.app","udid":"B8640B5D-60D3-4CAA-8263-566FE988C143"}}
+[38;5;0m[HTTP][0m [37m<-- POST /session [39m[32m200[39m [90m12220 ms - 520[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/c8c301af-b524-4136-a5a8-448b597c5874/element[39m
+[38;5;0m[HTTP][0m [90m{"using":"xpath","value":"//*[@name=\"Create list\"]"}[39m
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Calling AppiumDriver.findElement() with args: ["xpath","//*[@name=\"Create list\"]","c8c301af-b524-4136-a5a8-448b597c5874"]
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Executing command 'findElement'
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Waiting up to 0 ms for condition
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Matched '/element' to command name 'findElement'
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Proxying [POST /element] to [POST http://127.0.0.1:8100/session/DC78CDA4-07DD-45A3-A07D-AFDFE48B244D/element] with body: {"using":"xpath","value":"//*[@name=\"Create list\"]"}
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Got response with status 200: {"value":{"ELEMENT":"12000000-0000-0000-5CA2-000000000000","element-6066-11e4-a52e-4f735466cecf":"12000000-0000-0000-5CA2-000000000000"},"sessionId":"DC78CDA4-07DD-45A3-A07D-AFDFE48B244D"}
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"12000000-0000-0000-5CA2-000000000000","ELEMENT":"12000000-0000-0000-5CA2-000000000000"}
+[38;5;0m[HTTP][0m [37m<-- POST /session/c8c301af-b524-4136-a5a8-448b597c5874/element [39m[32m200[39m [90m183 ms - 137[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/c8c301af-b524-4136-a5a8-448b597c5874/element/12000000-0000-0000-5CA2-000000000000/click[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Driver proxy active, passing request on via HTTP proxy
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Executing command 'proxyReqRes'
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Matched '/session/c8c301af-b524-4136-a5a8-448b597c5874/element/12000000-0000-0000-5CA2-000000000000/click' to command name 'click'
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Proxying [POST /session/c8c301af-b524-4136-a5a8-448b597c5874/element/12000000-0000-0000-5CA2-000000000000/click] to [POST http://127.0.0.1:8100/session/DC78CDA4-07DD-45A3-A07D-AFDFE48B244D/element/12000000-0000-0000-5CA2-000000000000/click] with body: {}
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Got response with status 200: {"value":null,"sessionId":"DC78CDA4-07DD-45A3-A07D-AFDFE48B244D"}
+[38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Replacing sessionId DC78CDA4-07DD-45A3-A07D-AFDFE48B244D with c8c301af-b524-4136-a5a8-448b597c5874
+[38;5;0m[HTTP][0m [37m<-- POST /session/c8c301af-b524-4136-a5a8-448b597c5874/element/12000000-0000-0000-5CA2-000000000000/click [39m[32m200[39m [90m780 ms - 65[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/c8c301af-b524-4136-a5a8-448b597c5874/element[39m
+[38;5;0m[HTTP][0m [90m{"using":"xpath","value":"//*[@value=\"List Name\"]"}[39m
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Calling AppiumDriver.findElement() with args: ["xpath","//*[@value=\"List Name\"]","c8c301af-b524-4136-a5a8-448b597c5874"]
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Executing command 'findElement'
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Waiting up to 0 ms for condition
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Matched '/element' to command name 'findElement'
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Proxying [POST /element] to [POST http://127.0.0.1:8100/session/DC78CDA4-07DD-45A3-A07D-AFDFE48B244D/element] with body: {"using":"xpath","value":"//*[@value=\"List Name\"]"}
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Got response with status 200: {"value":{"ELEMENT":"75000000-0000-0000-5CA2-000000000000","element-6066-11e4-a52e-4f735466cecf":"75000000-0000-0000-5CA2-000000000000"},"sessionId":"DC78CDA4-07DD-45A3-A07D-AFDFE48B244D"}
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"75000000-0000-0000-5CA2-000000000000","ELEMENT":"75000000-0000-0000-5CA2-000000000000"}
+[38;5;0m[HTTP][0m [37m<-- POST /session/c8c301af-b524-4136-a5a8-448b597c5874/element [39m[32m200[39m [90m476 ms - 137[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/c8c301af-b524-4136-a5a8-448b597c5874/element/75000000-0000-0000-5CA2-000000000000/value[39m
+[38;5;0m[HTTP][0m [90m{"text":"Things to do today"}[39m
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Calling AppiumDriver.setValue() with args: ["Things to do today","75000000-0000-0000-5CA2-000000000000","c8c301af-b524-4136-a5a8-448b597c5874"]
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Executing command 'setValue'
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Matched '/element/75000000-0000-0000-5CA2-000000000000/value' to command name 'setValue'
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Added 'text' property "Things to do today" to 'setValue' request body
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Proxying [POST /element/75000000-0000-0000-5CA2-000000000000/value] to [POST http://127.0.0.1:8100/session/DC78CDA4-07DD-45A3-A07D-AFDFE48B244D/element/75000000-0000-0000-5CA2-000000000000/value] with body: {"value":["T","h","i","n","g","s"," ","t","o"," ","d","o"," ","t","o","d","a","y"],"text":"Things to do today"}
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Got response with status 200: {"value":null,"sessionId":"DC78CDA4-07DD-45A3-A07D-AFDFE48B244D"}
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Responding to client with driver.setValue() result: null
+[38;5;0m[HTTP][0m [37m<-- POST /session/c8c301af-b524-4136-a5a8-448b597c5874/element/75000000-0000-0000-5CA2-000000000000/value [39m[32m200[39m [90m558 ms - 14[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/c8c301af-b524-4136-a5a8-448b597c5874/element[39m
+[38;5;0m[HTTP][0m [90m{"using":"accessibility id","value":"Create"}[39m
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Calling AppiumDriver.findElement() with args: ["accessibility id","Create","c8c301af-b524-4136-a5a8-448b597c5874"]
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Executing command 'findElement'
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Waiting up to 0 ms for condition
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Matched '/element' to command name 'findElement'
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Proxying [POST /element] to [POST http://127.0.0.1:8100/session/DC78CDA4-07DD-45A3-A07D-AFDFE48B244D/element] with body: {"using":"accessibility id","value":"Create"}
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Got response with status 200: {"value":{"ELEMENT":"6A000000-0000-0000-5CA2-000000000000","element-6066-11e4-a52e-4f735466cecf":"6A000000-0000-0000-5CA2-000000000000"},"sessionId":"DC78CDA4-07DD-45A3-A07D-AFDFE48B244D"}
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"6A000000-0000-0000-5CA2-000000000000","ELEMENT":"6A000000-0000-0000-5CA2-000000000000"}
+[38;5;0m[HTTP][0m [37m<-- POST /session/c8c301af-b524-4136-a5a8-448b597c5874/element [39m[32m200[39m [90m154 ms - 137[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/c8c301af-b524-4136-a5a8-448b597c5874/element/6A000000-0000-0000-5CA2-000000000000/click[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Driver proxy active, passing request on via HTTP proxy
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Executing command 'proxyReqRes'
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Matched '/session/c8c301af-b524-4136-a5a8-448b597c5874/element/6A000000-0000-0000-5CA2-000000000000/click' to command name 'click'
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Proxying [POST /session/c8c301af-b524-4136-a5a8-448b597c5874/element/6A000000-0000-0000-5CA2-000000000000/click] to [POST http://127.0.0.1:8100/session/DC78CDA4-07DD-45A3-A07D-AFDFE48B244D/element/6A000000-0000-0000-5CA2-000000000000/click] with body: {}
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Got response with status 200: {"value":null,"sessionId":"DC78CDA4-07DD-45A3-A07D-AFDFE48B244D"}
+[38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Replacing sessionId DC78CDA4-07DD-45A3-A07D-AFDFE48B244D with c8c301af-b524-4136-a5a8-448b597c5874
+[38;5;0m[HTTP][0m [37m<-- POST /session/c8c301af-b524-4136-a5a8-448b597c5874/element/6A000000-0000-0000-5CA2-000000000000/click [39m[32m200[39m [90m826 ms - 65[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/c8c301af-b524-4136-a5a8-448b597c5874/element[39m
+[38;5;0m[HTTP][0m [90m{"using":"accessibility id","value":"Things to do today"}[39m
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Calling AppiumDriver.findElement() with args: ["accessibility id","Things to do today","c8c301af-b524-4136-a5a8-448b597c5874"]
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Executing command 'findElement'
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Waiting up to 0 ms for condition
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Matched '/element' to command name 'findElement'
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Proxying [POST /element] to [POST http://127.0.0.1:8100/session/DC78CDA4-07DD-45A3-A07D-AFDFE48B244D/element] with body: {"using":"accessibility id","value":"Things to do today"}
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Got response with status 200: {"value":{"ELEMENT":"7A000000-0000-0000-5CA2-000000000000","element-6066-11e4-a52e-4f735466cecf":"7A000000-0000-0000-5CA2-000000000000"},"sessionId":"DC78CDA4-07DD-45A3-A07D-AFDFE48B244D"}
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"7A000000-0000-0000-5CA2-000000000000","ELEMENT":"7A000000-0000-0000-5CA2-000000000000"}
+[38;5;0m[HTTP][0m [37m<-- POST /session/c8c301af-b524-4136-a5a8-448b597c5874/element [39m[32m200[39m [90m60 ms - 137[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/c8c301af-b524-4136-a5a8-448b597c5874/elements[39m
+[38;5;0m[HTTP][0m [90m{"using":"accessibility id","value":"Things to do today"}[39m
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Calling AppiumDriver.findElements() with args: ["accessibility id","Things to do today","c8c301af-b524-4136-a5a8-448b597c5874"]
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Executing command 'findElements'
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Waiting up to 0 ms for condition
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Matched '/elements' to command name 'findElements'
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Proxying [POST /elements] to [POST http://127.0.0.1:8100/session/DC78CDA4-07DD-45A3-A07D-AFDFE48B244D/elements] with body: {"using":"accessibility id","value":"Things to do today"}
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Got response with status 200: {"value":[{"ELEMENT":"7A000000-0000-0000-5CA2-000000000000","element-6066-11e4-a52e-4f735466cecf":"7A000000-0000-0000-5CA2-000000000000"}],"sessionId":"DC78CDA4-07DD-45A3-A07D-AFDFE48B244D"}
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Responding to client with driver.findElements() result: [{"element-6066-11e4-a52e-4f735466cecf":"7A000000-0000-0000-5CA2-000000000000","ELEMENT":"7A000000-0000-0000-5CA2-000000000000"}]
+[38;5;0m[HTTP][0m [37m<-- POST /session/c8c301af-b524-4136-a5a8-448b597c5874/elements [39m[32m200[39m [90m50 ms - 139[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/c8c301af-b524-4136-a5a8-448b597c5874/element[39m
+[38;5;0m[HTTP][0m [90m{"using":"accessibility id","value":"Things to do today"}[39m
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Calling AppiumDriver.findElement() with args: ["accessibility id","Things to do today","c8c301af-b524-4136-a5a8-448b597c5874"]
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Executing command 'findElement'
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Waiting up to 0 ms for condition
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Matched '/element' to command name 'findElement'
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Proxying [POST /element] to [POST http://127.0.0.1:8100/session/DC78CDA4-07DD-45A3-A07D-AFDFE48B244D/element] with body: {"using":"accessibility id","value":"Things to do today"}
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Got response with status 200: {"value":{"ELEMENT":"7A000000-0000-0000-5CA2-000000000000","element-6066-11e4-a52e-4f735466cecf":"7A000000-0000-0000-5CA2-000000000000"},"sessionId":"DC78CDA4-07DD-45A3-A07D-AFDFE48B244D"}
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"7A000000-0000-0000-5CA2-000000000000","ELEMENT":"7A000000-0000-0000-5CA2-000000000000"}
+[38;5;0m[HTTP][0m [37m<-- POST /session/c8c301af-b524-4136-a5a8-448b597c5874/element [39m[32m200[39m [90m50 ms - 137[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/c8c301af-b524-4136-a5a8-448b597c5874/element/7A000000-0000-0000-5CA2-000000000000/click[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Driver proxy active, passing request on via HTTP proxy
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Executing command 'proxyReqRes'
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Matched '/session/c8c301af-b524-4136-a5a8-448b597c5874/element/7A000000-0000-0000-5CA2-000000000000/click' to command name 'click'
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Proxying [POST /session/c8c301af-b524-4136-a5a8-448b597c5874/element/7A000000-0000-0000-5CA2-000000000000/click] to [POST http://127.0.0.1:8100/session/DC78CDA4-07DD-45A3-A07D-AFDFE48B244D/element/7A000000-0000-0000-5CA2-000000000000/click] with body: {}
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Got response with status 200: {"value":null,"sessionId":"DC78CDA4-07DD-45A3-A07D-AFDFE48B244D"}
+[38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Replacing sessionId DC78CDA4-07DD-45A3-A07D-AFDFE48B244D with c8c301af-b524-4136-a5a8-448b597c5874
+[38;5;0m[HTTP][0m [37m<-- POST /session/c8c301af-b524-4136-a5a8-448b597c5874/element/7A000000-0000-0000-5CA2-000000000000/click [39m[32m200[39m [90m822 ms - 65[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/c8c301af-b524-4136-a5a8-448b597c5874/element[39m
+[38;5;0m[HTTP][0m [90m{"using":"accessibility id","value":"Add"}[39m
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Calling AppiumDriver.findElement() with args: ["accessibility id","Add","c8c301af-b524-4136-a5a8-448b597c5874"]
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Executing command 'findElement'
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Waiting up to 0 ms for condition
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Matched '/element' to command name 'findElement'
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Proxying [POST /element] to [POST http://127.0.0.1:8100/session/DC78CDA4-07DD-45A3-A07D-AFDFE48B244D/element] with body: {"using":"accessibility id","value":"Add"}
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Got response with status 200: {"value":{"ELEMENT":"82000000-0000-0000-5CA2-000000000000","element-6066-11e4-a52e-4f735466cecf":"82000000-0000-0000-5CA2-000000000000"},"sessionId":"DC78CDA4-07DD-45A3-A07D-AFDFE48B244D"}
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"82000000-0000-0000-5CA2-000000000000","ELEMENT":"82000000-0000-0000-5CA2-000000000000"}
+[38;5;0m[HTTP][0m [37m<-- POST /session/c8c301af-b524-4136-a5a8-448b597c5874/element [39m[32m200[39m [90m68 ms - 137[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/c8c301af-b524-4136-a5a8-448b597c5874/element/82000000-0000-0000-5CA2-000000000000/click[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Driver proxy active, passing request on via HTTP proxy
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Executing command 'proxyReqRes'
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Matched '/session/c8c301af-b524-4136-a5a8-448b597c5874/element/82000000-0000-0000-5CA2-000000000000/click' to command name 'click'
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Proxying [POST /session/c8c301af-b524-4136-a5a8-448b597c5874/element/82000000-0000-0000-5CA2-000000000000/click] to [POST http://127.0.0.1:8100/session/DC78CDA4-07DD-45A3-A07D-AFDFE48B244D/element/82000000-0000-0000-5CA2-000000000000/click] with body: {}
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Got response with status 200: {"value":null,"sessionId":"DC78CDA4-07DD-45A3-A07D-AFDFE48B244D"}
+[38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Replacing sessionId DC78CDA4-07DD-45A3-A07D-AFDFE48B244D with c8c301af-b524-4136-a5a8-448b597c5874
+[38;5;0m[HTTP][0m [37m<-- POST /session/c8c301af-b524-4136-a5a8-448b597c5874/element/82000000-0000-0000-5CA2-000000000000/click [39m[32m200[39m [90m776 ms - 65[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/c8c301af-b524-4136-a5a8-448b597c5874/element[39m
+[38;5;0m[HTTP][0m [90m{"using":"xpath","value":"//*[@value=\"Title\"]"}[39m
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Calling AppiumDriver.findElement() with args: ["xpath","//*[@value=\"Title\"]","c8c301af-b524-4136-a5a8-448b597c5874"]
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Executing command 'findElement'
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Waiting up to 0 ms for condition
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Matched '/element' to command name 'findElement'
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Proxying [POST /element] to [POST http://127.0.0.1:8100/session/DC78CDA4-07DD-45A3-A07D-AFDFE48B244D/element] with body: {"using":"xpath","value":"//*[@value=\"Title\"]"}
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Got response with status 200: {"value":{"ELEMENT":"C8000000-0000-0000-5CA2-000000000000","element-6066-11e4-a52e-4f735466cecf":"C8000000-0000-0000-5CA2-000000000000"},"sessionId":"DC78CDA4-07DD-45A3-A07D-AFDFE48B244D"}
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"C8000000-0000-0000-5CA2-000000000000","ELEMENT":"C8000000-0000-0000-5CA2-000000000000"}
+[38;5;0m[HTTP][0m [37m<-- POST /session/c8c301af-b524-4136-a5a8-448b597c5874/element [39m[32m200[39m [90m384 ms - 137[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/c8c301af-b524-4136-a5a8-448b597c5874/elements[39m
+[38;5;0m[HTTP][0m [90m{"using":"xpath","value":"//*[@value=\"Title\"]"}[39m
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Calling AppiumDriver.findElements() with args: ["xpath","//*[@value=\"Title\"]","c8c301af-b524-4136-a5a8-448b597c5874"]
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Executing command 'findElements'
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Waiting up to 0 ms for condition
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Matched '/elements' to command name 'findElements'
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Proxying [POST /elements] to [POST http://127.0.0.1:8100/session/DC78CDA4-07DD-45A3-A07D-AFDFE48B244D/elements] with body: {"using":"xpath","value":"//*[@value=\"Title\"]"}
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Got response with status 200: {"value":[{"ELEMENT":"C8000000-0000-0000-5CA2-000000000000","element-6066-11e4-a52e-4f735466cecf":"C8000000-0000-0000-5CA2-000000000000"}],"sessionId":"DC78CDA4-07DD-45A3-A07D-AFDFE48B244D"}
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Responding to client with driver.findElements() result: [{"element-6066-11e4-a52e-4f735466cecf":"C8000000-0000-0000-5CA2-000000000000","ELEMENT":"C8000000-0000-0000-5CA2-000000000000"}]
+[38;5;0m[HTTP][0m [37m<-- POST /session/c8c301af-b524-4136-a5a8-448b597c5874/elements [39m[32m200[39m [90m378 ms - 139[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/c8c301af-b524-4136-a5a8-448b597c5874/element[39m
+[38;5;0m[HTTP][0m [90m{"using":"xpath","value":"//*[@value=\"Title\"]"}[39m
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Calling AppiumDriver.findElement() with args: ["xpath","//*[@value=\"Title\"]","c8c301af-b524-4136-a5a8-448b597c5874"]
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Executing command 'findElement'
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Waiting up to 0 ms for condition
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Matched '/element' to command name 'findElement'
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Proxying [POST /element] to [POST http://127.0.0.1:8100/session/DC78CDA4-07DD-45A3-A07D-AFDFE48B244D/element] with body: {"using":"xpath","value":"//*[@value=\"Title\"]"}
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Got response with status 200: {"value":{"ELEMENT":"C8000000-0000-0000-5CA2-000000000000","element-6066-11e4-a52e-4f735466cecf":"C8000000-0000-0000-5CA2-000000000000"},"sessionId":"DC78CDA4-07DD-45A3-A07D-AFDFE48B244D"}
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"C8000000-0000-0000-5CA2-000000000000","ELEMENT":"C8000000-0000-0000-5CA2-000000000000"}
+[38;5;0m[HTTP][0m [37m<-- POST /session/c8c301af-b524-4136-a5a8-448b597c5874/element [39m[32m200[39m [90m362 ms - 137[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/c8c301af-b524-4136-a5a8-448b597c5874/element/C8000000-0000-0000-5CA2-000000000000/value[39m
+[38;5;0m[HTTP][0m [90m{"text":"Automatizar"}[39m
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Calling AppiumDriver.setValue() with args: ["Automatizar","C8000000-0000-0000-5CA2-000000000000","c8c301af-b524-4136-a5a8-448b597c5874"]
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Executing command 'setValue'
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Matched '/element/C8000000-0000-0000-5CA2-000000000000/value' to command name 'setValue'
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Added 'text' property "Automatizar" to 'setValue' request body
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Proxying [POST /element/C8000000-0000-0000-5CA2-000000000000/value] to [POST http://127.0.0.1:8100/session/DC78CDA4-07DD-45A3-A07D-AFDFE48B244D/element/C8000000-0000-0000-5CA2-000000000000/value] with body: {"value":["A","u","t","o","m","a","t","i","z","a","r"],"text":"Automatizar"}
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Got response with status 200: {"value":null,"sessionId":"DC78CDA4-07DD-45A3-A07D-AFDFE48B244D"}
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Responding to client with driver.setValue() result: null
+[38;5;0m[HTTP][0m [37m<-- POST /session/c8c301af-b524-4136-a5a8-448b597c5874/element/C8000000-0000-0000-5CA2-000000000000/value [39m[32m200[39m [90m440 ms - 14[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/c8c301af-b524-4136-a5a8-448b597c5874/element[39m
+[38;5;0m[HTTP][0m [90m{"using":"xpath","value":"//*[@value=\"Due\"]"}[39m
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Calling AppiumDriver.findElement() with args: ["xpath","//*[@value=\"Due\"]","c8c301af-b524-4136-a5a8-448b597c5874"]
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Executing command 'findElement'
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Waiting up to 0 ms for condition
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Matched '/element' to command name 'findElement'
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Proxying [POST /element] to [POST http://127.0.0.1:8100/session/DC78CDA4-07DD-45A3-A07D-AFDFE48B244D/element] with body: {"using":"xpath","value":"//*[@value=\"Due\"]"}
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Got response with status 200: {"value":{"ELEMENT":"CA000000-0000-0000-5CA2-000000000000","element-6066-11e4-a52e-4f735466cecf":"CA000000-0000-0000-5CA2-000000000000"},"sessionId":"DC78CDA4-07DD-45A3-A07D-AFDFE48B244D"}
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"CA000000-0000-0000-5CA2-000000000000","ELEMENT":"CA000000-0000-0000-5CA2-000000000000"}
+[38;5;0m[HTTP][0m [37m<-- POST /session/c8c301af-b524-4136-a5a8-448b597c5874/element [39m[32m200[39m [90m400 ms - 137[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/c8c301af-b524-4136-a5a8-448b597c5874/element/CA000000-0000-0000-5CA2-000000000000/click[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Driver proxy active, passing request on via HTTP proxy
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Executing command 'proxyReqRes'
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Matched '/session/c8c301af-b524-4136-a5a8-448b597c5874/element/CA000000-0000-0000-5CA2-000000000000/click' to command name 'click'
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Proxying [POST /session/c8c301af-b524-4136-a5a8-448b597c5874/element/CA000000-0000-0000-5CA2-000000000000/click] to [POST http://127.0.0.1:8100/session/DC78CDA4-07DD-45A3-A07D-AFDFE48B244D/element/CA000000-0000-0000-5CA2-000000000000/click] with body: {}
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Got response with status 200: {"value":null,"sessionId":"DC78CDA4-07DD-45A3-A07D-AFDFE48B244D"}
+[38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Replacing sessionId DC78CDA4-07DD-45A3-A07D-AFDFE48B244D with c8c301af-b524-4136-a5a8-448b597c5874
+[38;5;0m[HTTP][0m [37m<-- POST /session/c8c301af-b524-4136-a5a8-448b597c5874/element/CA000000-0000-0000-5CA2-000000000000/click [39m[32m200[39m [90m382 ms - 65[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/c8c301af-b524-4136-a5a8-448b597c5874/element[39m
+[38;5;0m[HTTP][0m [90m{"using":"accessibility id","value":"Thursday, November 23"}[39m
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Calling AppiumDriver.findElement() with args: ["accessibility id","Thursday, November 23","c8c301af-b524-4136-a5a8-448b597c5874"]
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Executing command 'findElement'
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Waiting up to 0 ms for condition
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Matched '/element' to command name 'findElement'
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Proxying [POST /element] to [POST http://127.0.0.1:8100/session/DC78CDA4-07DD-45A3-A07D-AFDFE48B244D/element] with body: {"using":"accessibility id","value":"Thursday, November 23"}
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/c8c301af-b524-4136-a5a8-448b597c5874/touch/perform[39m
+[38;5;0m[HTTP][0m [90m{"actions":[{"action":"tap","options":{"x":60,"y":910}}]}[39m
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Calling AppiumDriver.performTouch() with args: [[{"action":"tap","options":{"x":60,"y":910}}],"c8c301af-b524-4136-a5a8-448b597c5874"]
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Executing command 'performTouch'
+[38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Got response with status 404: {"value":{"error":"no such element","message":"unable to find an element using 'accessibility id', value 'Thursday, November 23'","traceback":"(\n\t0   WebDriverAgentLib                   0x000000010c0cd46c FBNoSuchElementErrorResponseForRequest + 252\n\t1   WebDriverAgentLib                   0x000000010c0cd29c +[FBFindElementCommands handleFindElement:] + 312\n\t2   WebDriverAgentLib                   0x000000010c092ebc -[FBRoute_TargetAction mountRequest:intoResponse:] + 168\n\t3   WebDriverAgentLib                   0x000000010c07e688 __37-[FBWebServer registerRouteHandlers:]_block_invoke + 404\n\t4   WebDriverAgentLib                   0x000000010c0b4d3c -[RoutingHTTPServer handleRoute:withRequest:response:] + 168\n\t5   WebDriverAgentLib                   0x000000010c0b582c __72-[RoutingHTTPServer routeMethod:withPath:parameters:request:connection:]_block_invoke + 64\n\t6   libdispatch.dylib                   0x000000018016bd3c _dispatch_client_callout + 16\n\t7   libdispatch.dylib                   ...
+[debug] [38;5;160m[W3C][0m Matched W3C error code 'no such element' to NoSuchElementError
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Received the following touch action: tap(options={"x":60,"y":910})
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Proxying [POST /wda/touch/perform] to [POST http://127.0.0.1:8100/session/DC78CDA4-07DD-45A3-A07D-AFDFE48B244D/wda/touch/perform] with body: {"actions":[{"action":"tap","options":{"x":60,"y":910}}]}
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m     at XCUITestDriver.doNativeFind (/Users/josethvargas/Desktop/automationbro/webdriverio-appium-v8/node_modules/appium-xcuitest-driver/lib/commands/find.js:143:13)
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m     at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m     at XCUITestDriver.findNativeElementOrElements (/Users/josethvargas/Desktop/automationbro/webdriverio-appium-v8/node_modules/appium-xcuitest-driver/lib/commands/find.js:97:12)
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m     at XCUITestDriver.findElOrEls (/Users/josethvargas/Desktop/automationbro/webdriverio-appium-v8/node_modules/appium-xcuitest-driver/lib/commands/find.js:24:14)
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m     at XCUITestDriver.findElOrElsWithProcessing (/Users/josethvargas/Desktop/automationbro/webdriverio-appium-v8/node_modules/appium-xcuitest-driver/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m     at XCUITestDriver.findElement (/Users/josethvargas/Desktop/automationbro/webdriverio-appium-v8/node_modules/appium-xcuitest-driver/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+[38;5;0m[HTTP][0m [37m<-- POST /session/c8c301af-b524-4136-a5a8-448b597c5874/element [39m[33m404[39m [90m91 ms - 1257[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/c8c301af-b524-4136-a5a8-448b597c5874/elements[39m
+[38;5;0m[HTTP][0m [90m{"using":"accessibility id","value":"Thursday, November 23"}[39m
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Calling AppiumDriver.findElements() with args: ["accessibility id","Thursday, November 23","c8c301af-b524-4136-a5a8-448b597c5874"]
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Executing command 'findElements'
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Got response with status 200: {"value":null,"sessionId":"DC78CDA4-07DD-45A3-A07D-AFDFE48B244D"}
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Waiting up to 0 ms for condition
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Matched '/elements' to command name 'findElements'
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Proxying [POST /elements] to [POST http://127.0.0.1:8100/session/DC78CDA4-07DD-45A3-A07D-AFDFE48B244D/elements] with body: {"using":"accessibility id","value":"Thursday, November 23"}
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Responding to client with driver.performTouch() result: null
+[38;5;0m[HTTP][0m [37m<-- POST /session/c8c301af-b524-4136-a5a8-448b597c5874/touch/perform [39m[32m200[39m [90m851 ms - 14[39m
+[38;5;0m[HTTP][0m [90m[39m
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Got response with status 200: {"value":[{"ELEMENT":"FC000000-0000-0000-5CA2-000000000000","element-6066-11e4-a52e-4f735466cecf":"FC000000-0000-0000-5CA2-000000000000"}],"sessionId":"DC78CDA4-07DD-45A3-A07D-AFDFE48B244D"}
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Responding to client with driver.findElements() result: [{"element-6066-11e4-a52e-4f735466cecf":"FC000000-0000-0000-5CA2-000000000000","ELEMENT":"FC000000-0000-0000-5CA2-000000000000"}]
+[38;5;0m[HTTP][0m [37m<-- POST /session/c8c301af-b524-4136-a5a8-448b597c5874/elements [39m[32m200[39m [90m1061 ms - 139[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/c8c301af-b524-4136-a5a8-448b597c5874/element[39m
+[38;5;0m[HTTP][0m [90m{"using":"accessibility id","value":"Thursday, November 23"}[39m
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Calling AppiumDriver.findElement() with args: ["accessibility id","Thursday, November 23","c8c301af-b524-4136-a5a8-448b597c5874"]
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Executing command 'findElement'
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Waiting up to 0 ms for condition
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Matched '/element' to command name 'findElement'
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Proxying [POST /element] to [POST http://127.0.0.1:8100/session/DC78CDA4-07DD-45A3-A07D-AFDFE48B244D/element] with body: {"using":"accessibility id","value":"Thursday, November 23"}
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Got response with status 200: {"value":{"ELEMENT":"FC000000-0000-0000-5CA2-000000000000","element-6066-11e4-a52e-4f735466cecf":"FC000000-0000-0000-5CA2-000000000000"},"sessionId":"DC78CDA4-07DD-45A3-A07D-AFDFE48B244D"}
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"FC000000-0000-0000-5CA2-000000000000","ELEMENT":"FC000000-0000-0000-5CA2-000000000000"}
+[38;5;0m[HTTP][0m [37m<-- POST /session/c8c301af-b524-4136-a5a8-448b597c5874/element [39m[32m200[39m [90m276 ms - 137[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/c8c301af-b524-4136-a5a8-448b597c5874/element/FC000000-0000-0000-5CA2-000000000000/click[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Driver proxy active, passing request on via HTTP proxy
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Executing command 'proxyReqRes'
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Matched '/session/c8c301af-b524-4136-a5a8-448b597c5874/element/FC000000-0000-0000-5CA2-000000000000/click' to command name 'click'
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Proxying [POST /session/c8c301af-b524-4136-a5a8-448b597c5874/element/FC000000-0000-0000-5CA2-000000000000/click] to [POST http://127.0.0.1:8100/session/DC78CDA4-07DD-45A3-A07D-AFDFE48B244D/element/FC000000-0000-0000-5CA2-000000000000/click] with body: {}
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Got response with status 200: {"value":null,"sessionId":"DC78CDA4-07DD-45A3-A07D-AFDFE48B244D"}
+[38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Replacing sessionId DC78CDA4-07DD-45A3-A07D-AFDFE48B244D with c8c301af-b524-4136-a5a8-448b597c5874
+[38;5;0m[HTTP][0m [37m<-- POST /session/c8c301af-b524-4136-a5a8-448b597c5874/element/FC000000-0000-0000-5CA2-000000000000/click [39m[32m200[39m [90m580 ms - 65[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/c8c301af-b524-4136-a5a8-448b597c5874/element[39m
+[38;5;0m[HTTP][0m [90m{"using":"xpath","value":"//XCUIElementTypeWindow[@index=2]"}[39m
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Calling AppiumDriver.findElement() with args: ["xpath","//XCUIElementTypeWindow[@index=2]","c8c301af-b524-4136-a5a8-448b597c5874"]
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Executing command 'findElement'
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Waiting up to 0 ms for condition
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Matched '/element' to command name 'findElement'
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Proxying [POST /element] to [POST http://127.0.0.1:8100/session/DC78CDA4-07DD-45A3-A07D-AFDFE48B244D/element] with body: {"using":"xpath","value":"//XCUIElementTypeWindow[@index=2]"}
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Got response with status 200: {"value":{"ELEMENT":"89000000-0000-0000-5CA2-000000000000","element-6066-11e4-a52e-4f735466cecf":"89000000-0000-0000-5CA2-000000000000"},"sessionId":"DC78CDA4-07DD-45A3-A07D-AFDFE48B244D"}
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"89000000-0000-0000-5CA2-000000000000","ELEMENT":"89000000-0000-0000-5CA2-000000000000"}
+[38;5;0m[HTTP][0m [37m<-- POST /session/c8c301af-b524-4136-a5a8-448b597c5874/element [39m[32m200[39m [90m494 ms - 137[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/c8c301af-b524-4136-a5a8-448b597c5874/element/89000000-0000-0000-5CA2-000000000000/click[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Driver proxy active, passing request on via HTTP proxy
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Executing command 'proxyReqRes'
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Matched '/session/c8c301af-b524-4136-a5a8-448b597c5874/element/89000000-0000-0000-5CA2-000000000000/click' to command name 'click'
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Proxying [POST /session/c8c301af-b524-4136-a5a8-448b597c5874/element/89000000-0000-0000-5CA2-000000000000/click] to [POST http://127.0.0.1:8100/session/DC78CDA4-07DD-45A3-A07D-AFDFE48B244D/element/89000000-0000-0000-5CA2-000000000000/click] with body: {}
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Got response with status 200: {"value":null,"sessionId":"DC78CDA4-07DD-45A3-A07D-AFDFE48B244D"}
+[38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Replacing sessionId DC78CDA4-07DD-45A3-A07D-AFDFE48B244D with c8c301af-b524-4136-a5a8-448b597c5874
+[38;5;0m[HTTP][0m [37m<-- POST /session/c8c301af-b524-4136-a5a8-448b597c5874/element/89000000-0000-0000-5CA2-000000000000/click [39m[32m200[39m [90m445 ms - 65[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/c8c301af-b524-4136-a5a8-448b597c5874/element[39m
+[38;5;0m[HTTP][0m [90m{"using":"accessibility id","value":"Create"}[39m
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Calling AppiumDriver.findElement() with args: ["accessibility id","Create","c8c301af-b524-4136-a5a8-448b597c5874"]
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Executing command 'findElement'
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Waiting up to 0 ms for condition
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Matched '/element' to command name 'findElement'
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Proxying [POST /element] to [POST http://127.0.0.1:8100/session/DC78CDA4-07DD-45A3-A07D-AFDFE48B244D/element] with body: {"using":"accessibility id","value":"Create"}
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Got response with status 200: {"value":{"ELEMENT":"B7000000-0000-0000-5CA2-000000000000","element-6066-11e4-a52e-4f735466cecf":"B7000000-0000-0000-5CA2-000000000000"},"sessionId":"DC78CDA4-07DD-45A3-A07D-AFDFE48B244D"}
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"B7000000-0000-0000-5CA2-000000000000","ELEMENT":"B7000000-0000-0000-5CA2-000000000000"}
+[38;5;0m[HTTP][0m [37m<-- POST /session/c8c301af-b524-4136-a5a8-448b597c5874/element [39m[32m200[39m [90m120 ms - 137[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/c8c301af-b524-4136-a5a8-448b597c5874/element/B7000000-0000-0000-5CA2-000000000000/click[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Driver proxy active, passing request on via HTTP proxy
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Executing command 'proxyReqRes'
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Matched '/session/c8c301af-b524-4136-a5a8-448b597c5874/element/B7000000-0000-0000-5CA2-000000000000/click' to command name 'click'
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Proxying [POST /session/c8c301af-b524-4136-a5a8-448b597c5874/element/B7000000-0000-0000-5CA2-000000000000/click] to [POST http://127.0.0.1:8100/session/DC78CDA4-07DD-45A3-A07D-AFDFE48B244D/element/B7000000-0000-0000-5CA2-000000000000/click] with body: {}
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Got response with status 200: {"value":null,"sessionId":"DC78CDA4-07DD-45A3-A07D-AFDFE48B244D"}
+[38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Replacing sessionId DC78CDA4-07DD-45A3-A07D-AFDFE48B244D with c8c301af-b524-4136-a5a8-448b597c5874
+[38;5;0m[HTTP][0m [37m<-- POST /session/c8c301af-b524-4136-a5a8-448b597c5874/element/B7000000-0000-0000-5CA2-000000000000/click [39m[32m200[39m [90m993 ms - 65[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/c8c301af-b524-4136-a5a8-448b597c5874/element[39m
+[38;5;0m[HTTP][0m [90m{"using":"accessibility id","value":"Automatizar"}[39m
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Calling AppiumDriver.findElement() with args: ["accessibility id","Automatizar","c8c301af-b524-4136-a5a8-448b597c5874"]
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Executing command 'findElement'
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Waiting up to 0 ms for condition
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Matched '/element' to command name 'findElement'
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Proxying [POST /element] to [POST http://127.0.0.1:8100/session/DC78CDA4-07DD-45A3-A07D-AFDFE48B244D/element] with body: {"using":"accessibility id","value":"Automatizar"}
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Got response with status 200: {"value":{"ELEMENT":"80010000-0000-0000-5CA2-000000000000","element-6066-11e4-a52e-4f735466cecf":"80010000-0000-0000-5CA2-000000000000"},"sessionId":"DC78CDA4-07DD-45A3-A07D-AFDFE48B244D"}
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"80010000-0000-0000-5CA2-000000000000","ELEMENT":"80010000-0000-0000-5CA2-000000000000"}
+[38;5;0m[HTTP][0m [37m<-- POST /session/c8c301af-b524-4136-a5a8-448b597c5874/element [39m[32m200[39m [90m73 ms - 137[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mPOST[39m [37m/session/c8c301af-b524-4136-a5a8-448b597c5874/elements[39m
+[38;5;0m[HTTP][0m [90m{"using":"accessibility id","value":"Automatizar"}[39m
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Calling AppiumDriver.findElements() with args: ["accessibility id","Automatizar","c8c301af-b524-4136-a5a8-448b597c5874"]
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Executing command 'findElements'
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Valid locator strategies for this request: xpath, id, name, class name, -ios predicate string, -ios class chain, accessibility id, css selector
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Waiting up to 0 ms for condition
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Matched '/elements' to command name 'findElements'
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Proxying [POST /elements] to [POST http://127.0.0.1:8100/session/DC78CDA4-07DD-45A3-A07D-AFDFE48B244D/elements] with body: {"using":"accessibility id","value":"Automatizar"}
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Got response with status 200: {"value":[{"ELEMENT":"80010000-0000-0000-5CA2-000000000000","element-6066-11e4-a52e-4f735466cecf":"80010000-0000-0000-5CA2-000000000000"}],"sessionId":"DC78CDA4-07DD-45A3-A07D-AFDFE48B244D"}
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Responding to client with driver.findElements() result: [{"element-6066-11e4-a52e-4f735466cecf":"80010000-0000-0000-5CA2-000000000000","ELEMENT":"80010000-0000-0000-5CA2-000000000000"}]
+[38;5;0m[HTTP][0m [37m<-- POST /session/c8c301af-b524-4136-a5a8-448b597c5874/elements [39m[32m200[39m [90m54 ms - 139[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mGET[39m [37m/session/c8c301af-b524-4136-a5a8-448b597c5874/screenshot[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Calling AppiumDriver.getScreenshot() with args: ["c8c301af-b524-4136-a5a8-448b597c5874"]
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Executing command 'getScreenshot'
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Taking screenshot with WDA
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Matched '/screenshot' to command name 'getScreenshot'
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Proxying [GET /screenshot] to [GET http://127.0.0.1:8100/session/DC78CDA4-07DD-45A3-A07D-AFDFE48B244D/screenshot] with no body
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Got response with status 200: {"value":"iVBORw0KGgoAAAANSUhEUgAABQoAAArsCAYAAACYCMQuAAAAAXNSR0IArs4c6QAAAHhlWElmTU0AKgAAAAgABQESAAMAAAABAAEAAAEaAAUAAAABAAAASgEbAAUAAAABAAAAUgEoAAMAAAABAAIAAIdpAAQAAAABAAAAWgAAAAAAAABIAAAAAQAAAEgAAAABAAKgAgAEAAAAAQAABQqgAwAEAAAAAQAACuwAAAAAZX8tugAAAAlwSFlzAAALEwAACxMBAJqcGAAAABxpRE9UAAAAAgAAAAAAAAV2AAAAKAAABXYAAAV2AALXEfj1/QoAAEAASURBVHgB7L1rzLbrWdf5CiIhEkgoGxWNEv0gkTAMTCeGqDEEyZjRRIeNH/xgFErCgCb6xUkgcYYJBmPCfKCrOyib+gGptJVWqV0tFihtaRe7dkYT2spGpbu12q7VrnfHl3v+v///OM7ruu/neZ939zxrrXYdH66cu+M8j825O87/fV73de3GrZuHG7durOem4jeVd32XRzn5N26LVo/jrkeausr7g9S7qTT1b/4BdHoop87Rc+Nwq9O3boUOWj3k31Ke26w8x2/SjvKphyw3kbtlp/3rVYey8HR4i3yl90/JmLy0Y1mL380T/pYLfuJvPeB7c5MbOW613rQh2pvQEpov4e4R7a2V3toxH9oa/tWXm81ujf1n/M38m/XH6/+sv7P/bPvm7L/jf4z/VX73+J/jf8/5Y85fc/6c8/dzFH8IngTuUjgOZ3s/wZnATYzdgOPUc5NQexuP412n2jDupDzwluAv0CXtOtTr5z7xl8VTc2rFT/mDM8GvZUbWG8if/NYjmFTJaF3aj71l3Afsh+em8KUVJ4+2b9+WDhUHf2oMyrS02WXoqvIbLQ/h7pGN3J7zaGcrI/+W2okuW/61BtCu7wE1GRIFDXLpYJaOpaPSkQYMiQOOdTkHuPWQLwGqnPwAgKJZACL0qU8Hpu1dGyiDId2+QuLFf9FTv+rSga3LDem...
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAABQoAAArsCAYAAACYCMQuAAAAAXNSR0IArs4c6QAAAHhlWElmTU0AKgAAAAgABQESAAMAAAABAAEAAAEaAAUAAAABAAAASgEbAAUAAAABAAAAUgEoAAMAAAABAAIAAIdpAAQAAAABAAAAWgAAAAAAAABIAAAAAQAAAEgAAAABAAKgAgAEAAAAAQAABQqgAwAEAAAAAQAACuwAAAAAZX8tugAAAAlwSFlzAAALEwAACxMBAJqcGAAAABxpRE9UAAAAAgAAAAAAAAV2AAAAKAAABXYAAAV2AALXEfj1/QoAAEAASURBVHgB7L1rzLbrWdf5CiIhEkgoGxWNEv0gkTAMTCeGqDEEyZjRRIeNH/xgFErCgCb6xUkgcYYJBmPCfKCrOyib+gGptJVWqV0tFihtaRe7dkYT2spGpbu12q7VrnfHl3v+v///OM7ruu/neZ939zxrrXYdH66cu+M8j825O87/fV73de3GrZuHG7durOem4jeVd32XRzn5N26LVo/jrkeausr7g9S7qTT1b/4BdHoop87Rc+Nwq9O3boUOWj3k31Ke26w8x2/SjvKphyw3kbtlp/3rVYey8HR4i3yl90/JmLy0Y1mL380T/pYLfuJvPeB7c5MbOW613rQh2pvQEpov4e4R7a2V3toxH9oa/tWXm81ujf1n/M38m/XH6/+sv7P/bPvm7L/jf4z/VX73+J/jf8/5Y85fc/6c8/dzFH8IngTuUjgOZ3s/wZnATYzdgOPUc5NQexuP412n2jDupDzwluAv0CXtOtTr5z7xl8VTc2rFT/mDM8GvZUbWG8if/NYjmFTJaF3aj71l3Afsh+em8KUVJ4+2b9+WDhUHf2oMyrS02WXoqvIbLQ/h7pGN3J7zaGcrI/+W2okuW/61BtCu7wE1GRIFDXLpYJaOpaPSkQYMiQOOdTkHuPWQLwGqnPwAgKJZACL0qU8Hpu1dGyiDId2+QuLFf9FTv+rSga3LDemS/A0kzACS...
+[38;5;0m[HTTP][0m [37m<-- GET /session/c8c301af-b524-4136-a5a8-448b597c5874/screenshot [39m[32m200[39m [90m123 ms - 297240[39m
+[38;5;0m[HTTP][0m [90m[39m
+[38;5;0m[HTTP][0m [37m-->[39m [37mDELETE[39m [37m/session/c8c301af-b524-4136-a5a8-448b597c5874[39m
+[38;5;0m[HTTP][0m [90m{}[39m
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Calling AppiumDriver.deleteSession() with args: ["c8c301af-b524-4136-a5a8-448b597c5874"]
+[debug] [38;5;16m[AppiumDriver@3efe][0m Event 'quitSessionRequested' logged at 1698965056165 (16:44:16 GMT-0600 (Central Standard Time))
+[38;5;16m[AppiumDriver@3efe][0m Removing session c8c301af-b524-4136-a5a8-448b597c5874 from our master session list
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Matched '/session/c8c301af-b524-4136-a5a8-448b597c5874' to command name 'deleteSession'
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Proxying [DELETE /session/c8c301af-b524-4136-a5a8-448b597c5874] to [DELETE http://127.0.0.1:8100/session/DC78CDA4-07DD-45A3-A07D-AFDFE48B244D] with no body
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Got response with status 200: {"value":null,"sessionId":null}
+[38;5;128m[DevCon Factory][0m Releasing connections for B8640B5D-60D3-4CAA-8263-566FE988C143 device on any port number
+[38;5;128m[DevCon Factory][0m Found cached connections to release: ["B8640B5D-60D3-4CAA-8263-566FE988C143:8100"]
+[debug] [38;5;128m[DevCon Factory][0m Cached connections count: 0
+[debug] [38;5;48m[XCUITestDriver@eb05 (c8c301af)][0m Not clearing log files. Use `clearSystemFiles` capability to turn on.
+[debug] [38;5;112m[IOSSimulatorLog][0m Stopping iOS log capture
+[debug] [38;5;16m[AppiumDriver@3efe][0m Event 'quitSessionFinished' logged at 1698965057258 (16:44:17 GMT-0600 (Central Standard Time))
+[debug] [38;5;16m[AppiumDriver@3efe][0m Received response: null
+[debug] [38;5;16m[AppiumDriver@3efe][0m But deleting session, so not returning
+[debug] [38;5;16m[AppiumDriver@3efe][0m Responding to client with driver.deleteSession() result: null
+[38;5;0m[HTTP][0m [37m<-- DELETE /session/c8c301af-b524-4136-a5a8-448b597c5874 [39m[32m200[39m [90m1094 ms - 14[39m
+[38;5;0m[HTTP][0m [90m[39m
 [35m[Appium][39m Received SIGTERM - shutting down
-[debug] [38;5;0m[AppiumDriver@a6b5][0m There are no active sessions for cleanup
-[38;5;16m[HTTP][0m Waiting until the server is closed
-[38;5;16m[HTTP][0m Received server close event
+[debug] [38;5;16m[AppiumDriver@3efe][0m There are no active sessions for cleanup
+[38;5;0m[HTTP][0m Waiting until the server is closed
+[38;5;0m[HTTP][0m Received server close event

@@ -15,7 +15,9 @@ describe('Todo List', () => {
         // CREATE TODO ITEM
         await driver.pause(3000);
         await ItemScreen.addItemBtn.click();
+        await expect(await ItemScreen.titleInputField).toBeExisting();
         await ItemScreen.titleInputField.addValue('Automatizar');
+        
         await ItemScreen.dueInputField.click();
         await ItemScreen.tapOnCalendar();
         //await ItemScreen.arrowCalentarBtn.click();
