@@ -1,4 +1,3 @@
-const path = require('path');
 require('dotenv').config()
 const { config } = require('./wdio.shared.conf');
 //
@@ -12,7 +11,7 @@ config.key = process.env.BROWSERSTACK_ACCESS_KEY;
 // Specs
 // ============
 config.specs = [
-    path.join(process.cwd(), 'test/specs/android/delete-note-screen.spec.js')
+    './test/specs/android/delete-note-screen.spec.js'
 ];
 
 //
