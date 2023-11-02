@@ -1,29 +1,23 @@
 name: CI
-
-on:
-  push:
-  pull_request:
-
+on: [push, pull_request]
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      - name: Setup Node
-        uses: actions/setup-node@v2
-        with:
-          node-version: 18
-      - name: Install
-        run: npm install
-      - name: Test
-        env:
-          BROWSERSTACK_USERNAME: ${{ secrets.BS_USER }}
-          BROWSERSTACK_ACCESS_KEY: ${{ secrets.BS_KEY }}
-        run: npx wdio config/wdio.android.bs.config.js --spec test/specs/android/delete-note-screen.spec.js
-      - name: Upload logs on failure
-        if: failure()
-        uses: actions/upload-artifact@v2
-        with:
-          name: logs
-          path: logs
+        - name: Checkout
+          uses: actions/checkout@v4
+        - uses: actions/setup-node@v3
+          with:
+            node-version: 18
+        - name: Install
+          run: npm install
+        - name: Test
+          env:
+            BROWSERSTACK_USERNAME: ${{ secrets.BS_KEY }}
+            BROWSERSTACK_ACCESS_KEY: ${{ secrets.BS_USER }}
+          run: npx wdio config/wdio.android.bs.config.js --spec test/specs/android/delete-note-screen.spec.js
+        - uses: actions/upload-artifact@v1
+          if: failure()
+          with:
+            name: logs
+            path: logs
