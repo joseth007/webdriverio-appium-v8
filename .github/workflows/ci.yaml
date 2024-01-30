@@ -17,7 +17,8 @@ jobs:
             BROWSERSTACK_USERNAME: ${{ secrets.BROWSERSTACK_USERNAME }}
             BROWSERSTACK_ACCESS_KEY: ${{ secrets.BROWSERSTACK_ACCESS_KEY }}
           run: npx wdio config/wdio.android.bs.conf.js --spec test/specs/android/delete-note-screen.spec.js
-        - uses: actions/upload-artifact@v1
+        - name: Upload a Build Artifact
+          uses: actions/upload-artifact@v4.3.0
           if: failure()
           with:
             name: logs
