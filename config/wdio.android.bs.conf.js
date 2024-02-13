@@ -24,7 +24,7 @@ config.capabilities = [
         'appium:platformVersion': '14.0',
         'appium:deviceName': 'Google Pixel 8 Pro',
         'appium:automationName': 'UiAutomator2',
-        'appium:app': "bs://308df03d21928a0b6e9c080241b2a51dd83a740a",
+        'appium:app': "bs://8ce70dcc7799dcf93c95a6271ae742c023028a80",
         "appium:autoGrantPermissions": true
     }
 ]
