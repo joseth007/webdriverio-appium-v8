@@ -1,0 +1,12 @@
+[90m2024-02-13T17:45:02.467Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m app is not defined in browserstack-service config, skipping ...
+[90m2024-02-13T17:45:02.469Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending launch start event
+[90m2024-02-13T17:45:03.156Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [Start_Build] Success response: {"build_hashed_id":"vytchzlokvq1jpfmpjb2v7q7rtj3774hrmrsrkdg","jwt":"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJicm93c2Vyc3RhY2tfb2IiLCJzdWIiOiI3ODk4NjUyIiwiZ3JvdXBfaWQiOjc4MDY0MDcsInVzZXJfaWQiOjc4OTg2NTIsImJ1aWxkX2hhc2hlZF9pZCI6InZ5dGNoemxva3ZxMWpwZm1wamIydjdxN3J0ajM3NzRocm1yc3JrZGciLCJob29rX2FzX3Rlc3QiOiIxIiwiaWF0IjoxNzA3ODQ2MzA0LCJleHAiOjE3MDgxOTE5MDR9.jzIY3UEW_SkfKK0IW3AmfjfAeQnKbXyk352KsC29FgU","allow_screenshots":true}
+[90m2024-02-13T17:45:03.156Z[39m [96mINFO[39m [97m@wdio/browserstack-service[39m browserstackLocal is not enabled - skipping...
+[90m2024-02-13T17:45:10.717Z[39m [31mERROR[39m [97m@wdio/browserstack-service[39m Error in executing getUserCaps with args [object Object]: TypeError: Cannot read properties of undefined (reading 'capabilities')
+[90m2024-02-13T17:45:15.912Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Inside OnComplete hook..
+[90m2024-02-13T17:45:15.912Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Sending stop launch event
+[90m2024-02-13T17:45:16.006Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m [STOP_BUILD] Success response: ""
+[90m2024-02-13T17:45:16.792Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Response - {
+  status: 'success',
+  message: 'Logs upload successful in file - logs.gz'
+}
